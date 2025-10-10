@@ -317,8 +317,8 @@ function getRandomOptions() {
 
         let div = document.createElement('div');
         div.className = "option-slot";
-        if (val === opt[1]) div.style.color = "blue";
-        else if (val === opt[2]) div.style.color = "red";
+        if (val === opt[1]) div.style.color = "#A9A9A9";
+        else if (val === opt[2]) div.style.color = "blue";
 
         div.innerHTML = `
             <span>${formatOptionDisplay(opt[0], val)}</span>
@@ -355,8 +355,8 @@ function findTargetOptions() {
 
             let div = document.createElement('div');
             div.className = "option-slot";
-            if (val === opt[1]) div.style.color = "blue";
-            else if (val === opt[2]) div.style.color = "red";
+            if (val === opt[1]) div.style.color = "#A9A9A9";
+            else if (val === opt[2]) div.style.color = "blue";
             div.innerHTML = `<span>${formatOptionDisplay(opt[0], val)}</span>
                              <span class="score-tag">${score} 分</span>`;
             resultDiv.appendChild(div);
@@ -399,8 +399,8 @@ function findTargetOptions2() {
 
             let div = document.createElement('div');
             div.className = "option-slot";
-            if (val === opt[1]) div.style.color = "blue";
-            else if (val === opt[2]) div.style.color = "red";
+            if (val === opt[1]) div.style.color = "#A9A9A9";
+            else if (val === opt[2]) div.style.color = "blue";
             div.innerHTML = `<span>${formatOptionDisplay(opt[0], val)}</span>
                              <span class="score-tag">${score} 分</span>`;
             resultDiv.appendChild(div);
